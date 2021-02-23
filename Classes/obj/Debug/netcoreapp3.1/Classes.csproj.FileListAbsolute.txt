@@ -1,0 +1,8 @@
+/home/nick/RiderProjects/Lab1/Classes/bin/Debug/netcoreapp3.1/Classes.deps.json
+/home/nick/RiderProjects/Lab1/Classes/bin/Debug/netcoreapp3.1/Classes.dll
+/home/nick/RiderProjects/Lab1/Classes/bin/Debug/netcoreapp3.1/Classes.pdb
+/home/nick/RiderProjects/Lab1/Classes/obj/Debug/netcoreapp3.1/Classes.csprojAssemblyReference.cache
+/home/nick/RiderProjects/Lab1/Classes/obj/Debug/netcoreapp3.1/Classes.AssemblyInfoInputs.cache
+/home/nick/RiderProjects/Lab1/Classes/obj/Debug/netcoreapp3.1/Classes.AssemblyInfo.cs
+/home/nick/RiderProjects/Lab1/Classes/obj/Debug/netcoreapp3.1/Classes.dll
+/home/nick/RiderProjects/Lab1/Classes/obj/Debug/netcoreapp3.1/Classes.pdb

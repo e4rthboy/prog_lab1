@@ -1,0 +1,14 @@
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.deps.json
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.runtimeconfig.json
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.runtimeconfig.dev.json
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb
+/home/nick/RiderProjects/Lab1/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache
+/home/nick/RiderProjects/Lab1/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.AssemblyInfoInputs.cache
+/home/nick/RiderProjects/Lab1/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.AssemblyInfo.cs
+/home/nick/RiderProjects/Lab1/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll
+/home/nick/RiderProjects/Lab1/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/Classes.dll
+/home/nick/RiderProjects/Lab1/ConsoleApp/bin/Debug/netcoreapp3.1/Classes.pdb
+/home/nick/RiderProjects/Lab1/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CopyComplete
