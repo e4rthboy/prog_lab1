@@ -1,9 +1,4 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Drawing;
-using System.Linq.Expressions;
-using System.Net.Http.Headers;
-using Classes;
 using Classes.Repositories;
 
 namespace ConsoleApp
@@ -12,10 +7,10 @@ namespace ConsoleApp
     {
         private static void Main(string[] args)
         {
-            ToyRepository toyRepository = new ToyRepository();
-            MilkRepository milkRepository = new MilkRepository();
+            var toyRepository = new ToyRepository();
+            var milkRepository = new MilkRepository();
             
-            bool showMenu = true;
+            var showMenu = true;
 
             while (showMenu)
             {
@@ -60,7 +55,10 @@ namespace ConsoleApp
                     Console.WriteLine("Введите цвет игрушки");
                     var color = InputHelper.StringInput();
                     
-                    toyRepository.Save(name, vendorCode, material, color);
+                    Console.WriteLine("Игрушка мягкая?");
+                    var isSoft = InputHelper.BoolInput();
+                    
+                    toyRepository.Save(name, vendorCode, material, color, isSoft);
                     
                     return true;
                 case "2":
@@ -95,6 +93,9 @@ namespace ConsoleApp
                     Console.WriteLine("Введите дату срока годности");
                     var date = InputHelper.DateTimeInput();
                     
+                    Console.WriteLine("Введите количество калорий");
+                    var calorieAmount = InputHelper.IntInput();
+                    
                     Console.WriteLine("Введите жирность");
                     var fat = InputHelper.DoubleInput();
                     
@@ -104,7 +105,7 @@ namespace ConsoleApp
                     Console.WriteLine("Содержит лактозу? (1, 0)");
                     var hasLactose = InputHelper.BoolInput();
                     
-                    milkRepository.Save(_name, _vendorCode, packageType, date, fat, size, hasLactose);
+                    milkRepository.Save(_name, _vendorCode, packageType, date, calorieAmount, fat, size, hasLactose);
                     return true;
                 case "5":
                     var milkList = milkRepository.GetList();
@@ -118,9 +119,9 @@ namespace ConsoleApp
                     Console.ReadKey();
                     return true;
                 case "6":
-                    var milkid = InputHelper.IntInput();
+                    var milkId = InputHelper.IntInput();
                     
-                    Console.WriteLine(milkRepository.GetById(milkid));
+                    Console.WriteLine(milkRepository.GetById(milkId));
                     Console.ReadKey();
                     return true;
                 case "7":

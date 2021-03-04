@@ -14,9 +14,27 @@ namespace Classes.Repositories
             _milkList = new List<Milk>();
         }
 
-        public void Save(string name, string vendorCode, string packageType, DateTime expirationDate, double fatAmount, double size, bool hasLactose)
-        {
-            var milk = new Milk(GetId(), name, vendorCode, packageType, expirationDate, fatAmount, size, hasLactose);
+        public void Save(
+            string name,
+            string vendorCode,
+            string packageType,
+            DateTime expirationDate,
+            int calorieAmount,
+            double fatAmount,
+            double size,
+            bool hasLactose
+        ) {
+            var milk = new Milk(
+                GetId(),
+                name,
+                vendorCode,
+                packageType,
+                expirationDate,
+                calorieAmount,
+                fatAmount,
+                size,
+                hasLactose
+            );
             
             _milkList.Add(milk);
         }

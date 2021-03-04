@@ -1,5 +1,4 @@
 using System;
-using System.ComponentModel.DataAnnotations;
 
 namespace ConsoleApp
 {
@@ -12,7 +11,7 @@ namespace ConsoleApp
                 return number;
             }
 
-            throw new ValidationException("Ввести можно только целое число.");
+            return 0;
         }
         
         public static double DoubleInput()
@@ -22,7 +21,7 @@ namespace ConsoleApp
                 return number;
             }
 
-            throw new ValidationException("Ввести можно только рациональное число");
+            return 0;
         }
         
         public static bool BoolInput()
@@ -32,7 +31,7 @@ namespace ConsoleApp
                 return number;
             }
 
-            throw new ValidationException("Ввести можно только булево значение");
+            return false;
         }
 
 

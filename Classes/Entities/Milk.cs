@@ -15,10 +15,11 @@ namespace Classes.Entities
             string vendorCode, 
             string packageType, 
             DateTime expirationDate,
+            int calorieAmount,
             double fatAmount, 
             double size,
             bool hasLactose
-        ) : base(id, name, vendorCode, packageType, expirationDate)
+        ) : base(id, name, vendorCode, packageType, expirationDate, calorieAmount)
         {
             FatAmount = fatAmount;
             Size = size;

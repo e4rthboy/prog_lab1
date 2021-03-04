@@ -14,9 +14,9 @@ namespace Classes.Repositories
             _toys = new List<Toy>();
         }
 
-        public void Save(string name, string vendorCode, string material, string color)
+        public void Save(string name, string vendorCode, string material, string color, bool isSoft)
         {
-            var toy = new Toy(GetId(), name, vendorCode, material, color);
+            var toy = new Toy(GetId(), name, vendorCode, material, color, isSoft);
             
             _toys.Add(toy);
         }
